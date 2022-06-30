@@ -3,11 +3,22 @@
   src: url("/src/fonts/Lobster-Regular.ttf");
 }
 
-.Header {}
-
 .App {
   text-align: center;
   font-family: 'Lobster', cursive;
+}
+
+.Header {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: x-large;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  padding: 2em;
+  margin-bottom: 3em;
+  background-color: #F15BB5;
+  color: #ffffff;
 }
 
 .App-logo {

@@ -1,6 +1,8 @@
 const Header = () => {
     return (
-        <h1>Sweet Cheeks</h1>
+        <div className="Header">
+            <h1>Sweet Cheeks</h1>
+        </div>
     )
 }
 export default Header;
